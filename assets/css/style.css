@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Noto+Serif+SC:wght@500&display=swap");
 body {
   margin: 0;
   position: relative;
@@ -5,8 +6,10 @@ body {
 }
 header {
   text-align: center;
+  font-family: "Lato", sans-serif;
   background-color: light;
   border-bottom: 2px solid black;
+  letter-spacing: 5px;
 }
 section {
   margin: 0 5%;
@@ -17,6 +20,7 @@ section {
 }
 h1 {
   font-size: 2em;
+  font-family: "Lato", sans-serif;
 }
 p {
   font-size: 1em;
