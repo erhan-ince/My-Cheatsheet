@@ -27,6 +27,10 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  text-transform: uppercase;
+  text-shadow: black;
+}
 section {
   margin: 0 5%;
   display: grid;
