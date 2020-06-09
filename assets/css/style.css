@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Noto+Serif+SC:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Oldenburg&display=swap");
 body {
   margin: 0;
-  position: relative;
   background: #d9d9d9;
 }
 header {
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "Oldenburg", cursive;
   background-color: light;
   border-bottom: 2px solid black;
   letter-spacing: 5px;
@@ -20,11 +20,12 @@ section {
 }
 h1 {
   font-size: 2em;
-  font-family: "Lato", sans-serif;
+  font-family: "Oldenburg", cursive;
 }
 p {
   font-size: 1em;
   padding-left: 2px;
+  font-family: "Oldenburg", cursive;
 }
 img {
   height: 200px;
