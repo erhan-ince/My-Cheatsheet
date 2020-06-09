@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  position: relative;
+  background: #d9d9d9;
+}
+header {
+  text-align: center;
+  background-color: light;
+  border-bottom: 2px solid black;
+}
+section {
+  margin: 0 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  /* text-align: center; */
+}
+h1 {
+  font-size: 2em;
+}
+p {
+  font-size: 1em;
+}
+img {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+img:hover {
+  transform: scale(1.5);
+}
+/* section div {
+  margin: 0 5%;
+} */
+/* section div {
+  display: inline-block;
+  width: 25%;
+  margin: 0 2%;
+} */
