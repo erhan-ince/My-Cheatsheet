@@ -15,15 +15,13 @@ header {
 nav {
   position: absolute;
   top: 80px;
-  right: 0;
-  text-align: right;
+  left: 30%;
 }
 nav li {
   display: inline;
 }
 nav ul {
   display: inline;
-  /* text-align: right; */
 }
 a {
   text-decoration: none;
