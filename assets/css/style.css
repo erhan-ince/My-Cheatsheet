@@ -5,11 +5,29 @@ body {
   background: #d9d9d9;
 }
 header {
+  height: 10vh;
   text-align: center;
   font-family: "Oldenburg", cursive;
   background-color: light;
   border-bottom: 2px solid black;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
+}
+nav {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  text-align: right;
+}
+nav li {
+  display: inline;
+}
+nav ul {
+  display: inline;
+  /* text-align: right; */
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 section {
   margin: 0 5%;
