@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Noto+Serif+SC:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Oldenburg&display=swap");
 body {
   margin: 0;
   background: linear-gradient(#d9d9d9, darkgray);
@@ -6,9 +8,11 @@ body {
 a {
   text-decoration: none;
   color: white;
+  font-family: "Oldenburg", cursive;
 }
 h1 {
   text-align: center;
+  font-family: "Oldenburg", cursive;
 }
 h2 {
   text-align: center;
