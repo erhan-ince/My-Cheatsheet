@@ -11,83 +11,90 @@
       <h1>Git Cheatsheet</h1>
       <nav>
         <ul>
-          <li><a href="#pwd">git init</a></li>
-          <li><a href="#cdd">git add .</a></li>
-          <li><a href="#cddot">git commit -m "Name"</a></li>
-          <li><a href="#mkdir">Go to Github open Repo</a></li>
-          <li><a href="#mkdir">git status</a></li>
-          <li><a href="#mkdir">git log --oneline</a></li>
-          <li><a href="#movere">git branch Name</a></li>
-          <li><a href="#movere">git branch -a</a></li>
-          <li><a href="#movere">git branch -D name</a></li>
-          <li><a href="#movere">git diff</a></li>
-          <li><a href="#cal">git ........</a></li>
-          <li><a href="#cal">git reset --hard head</a></li>
+          <li><a href="#gitinit">git init</a></li>
+          <li><a href="#gitadd">git add .</a></li>
+          <li><a href="#gitcommit">git commit -m "Name"</a></li>
+          <li><a href="#gogithub">Go to Github open Repo</a></li>
+          <li><a href="#gitstatus">git status</a></li>
+          <li><a href="#gitlog">git log --oneline</a></li>
+          <li><a href="#gitbranchname">git branch Name</a></li>
+          <li><a href="#gitbrancha">git branch -a</a></li>
+          <li><a href="#gitbranchd">git branch -D name</a></li>
+          <li><a href="#gitdiff">git diff</a></li>
+          <li><a href="#gitclone">git clone</a></li>
+          <li><a href="#gitreset">git reset --hard head</a></li>
         </ul>
       </nav>
     </header>
     <section>
       <div>
-        <h1 id="pwd">git init</h1>
-        <img src="../img/pwd.png" alt="" />
+        <h1 id="gitinit">git init</h1>
+        <img src="../img/git init.png" alt="" />
         <p>
           Create empty Git repo in specified directory. Run with no arguments to
           initialize the current directory as a git repository
         </p>
       </div>
       <div>
-        <h1 id="cdd">cd</h1>
-        <img src="../img/cd.png" alt="" />
-        <p>cd wird genutzt um ein Pfad zu betreten</p>
+        <h1 id="gitadd">git add .</h1>
+        <img src="../img/gitadd.png" alt="" />
+        <p>
+          Stage all changes in directory for the next commit. Replace directory
+          with a file to change a specific file.
+        </p>
       </div>
       <div>
-        <h1 id="cddot">cd ..</h1>
-        <img src="../img/cddoppelpunkt.png" alt="" />
-        <p>cd .. wird genutzt um einen übergeordneten Pfad zu betreten</p>
+        <h1 id="gitcommit">git commit -m</h1>
+        <img src="../img/gitcommit.png" alt="" />
+        <p>Commit the staged snapshot, but instead of launching
+            a text editor, use <message> as the commit message.</p>
       </div>
       <div>
-        <h1 id="mkdir">mkdir</h1>
-        <img src="../img/mkdir.png" alt="" />
-        <p>mkdir erstellt einen neuen Ordner</p>
+        <h1 id="gogithub">Go to github open Repo</h1>
+        <img src="../img/githuböffnen.png" alt="" />
+        <p>Create a new Repo on github.com</p>
       </div>
       <div>
-        <h1 id="mkdir">ls</h1>
-        <img src="../img/ls.png" alt="" />
-        <p>ls Listet alle Dateien in einem Ordner auf</p>
+        <h1 id="gitstatus">git status</h1>
+        <img src="../img/gitstatus.png" alt="" />
+        <p>List which files are staged, unstaged, and untracked.</p>
       </div>
       <div>
-        <h1 id="mkdir">touch</h1>
-        <img src="../img/touch.png" alt="" />
-        <p>touch erstellt euch eine neue Datei</p>
+        <h1 id="gitlog">git log --oneline</h1>
+        <img src="../img/gitlog.png" alt="" />
+        <p>Display the entire commit history using the default format.
+            For customization see additional options. --oneline creates Short form</p>
       </div>
       <div>
-        <h1 id="mkdir">mv</h1>
-        <img src="../img/mv.png" alt="" />
-        <p>mv verschiebt eure Datei lokal</p>
+        <h1 id="gitbranchname">git branch name</h1>
+        <img src="../img/gitcreatebranch.png" alt="" />
+        <p>Create a new branch named name.</p>
       </div>
       <div>
-        <h1 id="movere">mv-r</h1>
-        <img src="../img/mv-rename.png" alt="" />
-        <p>mv-r verschiebt und benennt die Datei um</p>
+        <h1 id="gitbrancha">git branch -a</h1>
+        <img src="../img/branch-a.png" alt="" />
+        <p>Shows working Branch</p>
       </div>
       <div>
-        <h1 id="movere">rm</h1>
-        <img src="../img/remove-file.png" alt="" />
+        <h1 id="gitbranchd">git branch -D ""</h1>
+        <img src="../img/deletebranch.png" alt="" />
         <p>rm löscht eine Datei</p>
       </div>
       <div>
-        <h1 id="movere">rm-r</h1>
-        <img src="../img/remove-folder.png" alt="" />
-        <p>rm-r löscht ein ganzes Verzeichniss</p>
+        <h1 id="gitdiff">git diff</h1>
+        <img src="../img/gitdiff.png" alt="" />
+        <p>Show difference between working directory and last commit.</p>
       </div>
       <div>
-        <h1 id="cal">cal</h1>
-        <img src="../img/cal.png" alt="" />
-        <p>cal zeigt euch einen kalender an</p>
+        <h1 id="gitclone">git clone</h1>
+        <img src="../img/gitclone.png" alt="" />
+        <p>Clone repo located at repo onto local machine. Original repo can be
+            located on the local filesystem or on a remote machine via HTTP or SSH
+        </p>
       </div>
       <div>
-        <h1 id="cal">exit</h1>
-        <img src="../img/Exit.png" alt="" />
+        <h1 id="gitreset">git reset</h1>
+        <img src="../img/hardreset.png" alt="" />
         <p>mit Exit verabschiedet man sich vom Terminal</p>
       </div>
     </section>
