@@ -55,3 +55,7 @@ img {
 img:hover {
   transform: scale(1.5);
 }
+.alast {
+  font-size: 40px;
+  text-align: right;
+}
