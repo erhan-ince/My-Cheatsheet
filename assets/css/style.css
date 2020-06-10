@@ -1,57 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Noto+Serif+SC:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Oldenburg&display=swap");
 body {
   margin: 0;
   background: linear-gradient(#d9d9d9, darkgray);
-}
-header {
-  height: 10vh;
-  text-align: center;
-  font-family: "Oldenburg", cursive;
-  background-color: light;
-  border-bottom: 2px solid black;
-  letter-spacing: 1px;
-}
-nav {
-  position: absolute;
-  top: 80px;
-  left: 30%;
-}
-nav li {
-  display: inline;
-}
-nav ul {
-  display: inline;
+  height: 100vh;
 }
 a {
   text-decoration: none;
-  color: black;
-}
-a:hover {
-  text-transform: uppercase;
-  text-shadow: black;
-}
-section {
-  margin: 0 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  /* text-align: center; */
+  color: white;
 }
 h1 {
-  font-size: 2em;
-  font-family: "Oldenburg", cursive;
+  text-align: center;
 }
-p {
-  font-size: 1em;
-  padding-left: 2px;
-  font-family: "Oldenburg", cursive;
+h2 {
+  text-align: center;
+  margin-top: 25%;
 }
-img {
-  height: 200px;
-  width: 100%;
-  margin: 0 auto;
+.circle {
+  margin-top: 20%;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 15%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background: darkgray;
 }
-img:hover {
-  transform: scale(1.5);
+.circlesecond {
+  margin-top: 10%;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 15%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background: darkgray;
+}
+article {
+  margin-top: 15%;
+  margin-left: 7%;
 }
